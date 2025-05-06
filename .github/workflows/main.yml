@@ -6,7 +6,6 @@ on:
   pull_request:
     branches:
       - develop
-      - staging
 
 # Jobs to carry out
 jobs:
@@ -40,3 +39,5 @@ jobs:
       # Run tests
       - name: Run Tests
         run: npm run test
+
+      
